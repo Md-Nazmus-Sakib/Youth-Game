@@ -1,0 +1,128 @@
+
+
+/*=========================
+Common File Start 
+ ============================== */
+ * {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    width:1300px;
+    margin: 0 auto;
+}
+.primary-color-gradient{
+   background: linear-gradient(to bottom, rgb(240, 3, 200), rgb(179, 9, 247));
+   -webkit-text-fill-color: transparent;
+   font-size: 2em;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+    border-radius:20px;
+   
+}
+.primary-button{
+    padding:10px 20px;
+    font-size: 1.5em;
+    margin: 1em 0;
+    background-color: rgb(238, 6, 180);
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
+.blue{
+    background-color: blue;
+}
+/*=========================
+Common File End
+ ============================== */
+/*=========================
+ Navbar Section start 
+ ============================== */
+ nav{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+ }
+ .icon-image, ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .icon-image img{
+    width:100%;
+ }
+ ul>li{
+
+list-style-type: none;
+margin-left: 2em;
+font-size: 1em;
+    
+ }
+ .follow-us{
+    padding: 5px 15px;
+    background-color: gainsboro;
+    border-radius: 5px;
+ }
+ .font-icon{
+    
+    color: red;
+ }
+/*=========================
+ Navbar Section End 
+ ============================== */
+/*=========================
+ Header Section start 
+ ============================== */
+ header{
+    background-image: url('../images/Group\ 14.png');
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2em;
+   
+ }
+ .header-img img{
+  width:80%;
+ }
+.header-text{
+    width: 50%;
+   
+    padding-left: 10em;
+   
+    
+}
+.header-img{
+    width: 50%;
+}
+/*=========================
+ Header Section end
+ ============================== */
+
+
+
+/*=========================
+ Footer Section Start
+ ============================== */
+.footer-section {
+    background-color: black;
+    color: white;
+    height: 20em;
+    margin-top: 5em;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.copy-right {
+    margin-top: 5em;
+}
+
+/*=========================
+ Footer Section End
+ ============================== */
