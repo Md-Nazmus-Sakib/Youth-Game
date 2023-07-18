@@ -47,7 +47,7 @@ p{
     padding: 0 5em;
 }
 .flex-with-img-title{
-    width:50%;
+    width:60%;
   
  }
 img{
@@ -193,6 +193,29 @@ font-size: 1em;
 /*=========================
    Career Section end
  ============================== */
+ /* ======================== 
+ Different Type Game section Start
+ ==========================  */
+ .game-type{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0;
+ }
+ .type-card{
+    display: flex;
+    justify-content: center;
+   
+ }
+ .type-card img{
+width:50px;
+height: 50px;
+padding-right: 1em;
+ }
+ /* ======================== 
+ Different Type Game section End
+ ==========================  */
 
 
 
@@ -213,10 +236,28 @@ font-size: 1em;
     text-align: center;
     height: 100%;
 }
+.footer-list ul{
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+   justify-content: center;
+   margin: 10px 0;
+
+}
+.footer-list ul li{
+  padding-left: 2em;
+
+}
+.footer-list ul i{
+  font-size: 2em;
+  color: white;
+
+}
 
 .copy-right {
     margin-top: 5em;
 }
+
 
 /*=========================
  Footer Section End
