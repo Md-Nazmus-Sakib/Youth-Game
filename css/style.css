@@ -11,6 +11,12 @@ Common File Start
 body{
     width:80vw;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.521)),url('../images/3977278.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
 }
 section{
     margin: 3em 0;
@@ -24,7 +30,7 @@ p{
    font-size: 2em;
     -webkit-background-clip: text;
     font-weight: bolder;
-    border-radius:20px;
+   
    
 }
 .primary-button{
@@ -67,6 +73,10 @@ Common File End
     justify-content: space-around;
     padding-top: 2rem;
  }
+ .logo{
+   width:5em;
+   height:5em;
+ }
 
  .about-nav li{
 
@@ -77,12 +87,12 @@ font-size: 1em;
  }
  .follow-us{
     padding: 5px 15px;
-    background-color: gainsboro;
+    background-color:rgb(240, 3, 200);
     border-radius: 5px;
  }
  .font-icon{
     
-    color: red;
+    color: white;
  }
 /*=========================
  Navbar Section End 
@@ -97,6 +107,9 @@ font-size: 1em;
  }
  .header-title{
    margin-left: 5em;
+ }
+ .header-title h1{
+   font-size: 2em;
  }
  h1{
     font-size: 1.5em;
