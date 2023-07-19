@@ -148,6 +148,7 @@ font-size: 1em;
  .online-game-text{
     text-align:center;
  }
+
  .online-game-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -241,6 +242,7 @@ font-size: 1em;
     color: white;
     padding:5em 3em;
  }
+
  
  .career-country{
     display: grid;
@@ -249,7 +251,6 @@ font-size: 1em;
     padding: 0;
     width: 100%;
     list-style-type: none;
-    
  }
  .btn-career{
    background-color: white;
@@ -407,6 +408,10 @@ margin-right: 5px;
         left:-2em;
         width:10em;
         height: 12em;
+     }
+     .career-country li{
+      font-size: 10px;
+
      }
     
      .career-img{
