@@ -43,7 +43,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 5em;
+    /* padding: 0 5em; */
 }
 .flex-with-img-title{
     width:60%;
@@ -52,6 +52,9 @@ p{
 img{
     width:100%;
     height:100%;
+}
+ul{
+   padding:0;
 }
 /*=========================
 Common File End
@@ -91,6 +94,9 @@ font-size: 1em;
     background-image: url('../images/Group\ 14.png');
     margin-top: 2em;
    
+ }
+ .header-title{
+   margin-left: 5em;
  }
  h1{
     font-size: 1.5em;
@@ -201,10 +207,10 @@ font-size: 1em;
 
  .play-instantly-over-pic{
     position: absolute;
-    bottom:-30px;
-    left:-50px;
-    width:200px;
-    height: 250px;
+    bottom:-2em;
+    left:-3em;
+    width:10em;
+    height: 15em;
  }
  
  .play-instantly-over-pic img{
@@ -334,13 +340,14 @@ margin-right: 5px;
         
      }
     .flex-with-img, nav{
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin:10px 10px;
         padding:0;
     }
-    nav, .we-are-gamer, .play-instantly{
-        flex-direction: column;
+    .header-section, .career-section{
+      flex-direction: column-reverse;
     }
+   
     .flex-with-img-title{
         width:100%;
         margin: 0 auto;
@@ -388,6 +395,7 @@ margin-right: 5px;
         width:10em;
         height: 12em;
      }
+    
      .career-img{
       width:100%;
     }
@@ -415,4 +423,66 @@ margin-right: 5px;
     ul{
       padding: 0;
     }
+ }
+
+ /*============================================================
+ Tablet Or Medium Devise minimum 576px and maximum 768px Media Query
+ ================================================================ */
+
+ @media screen and (min-width:576px) and (max-width:768px) {
+   .body{
+      width:95%;
+      margin:0 auto;
+  }
+
+  .flex-with-img, nav{
+   flex-direction: column;
+   margin:10px 10px;
+   padding:0;
+}
+.header-section, .career-section{
+ flex-direction: column-reverse;
+}
+.flex-with-img-title{
+   width:100%;
+   margin: 0 auto;
+   text-align: center;
+
+}
+nav img{
+   width:50px;
+}
+.online-game-card{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 5em 0;
+}
+.play-instantly-img{
+   width:100%;
+   margin-bottom: 5em;
+
+}
+.play-instantly-img img{
+   width:100%;
+
+}
+.career-img{
+   width:100%;
+ }
+ .game-type, .footer-list ul{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+}
+.footer-section {
+       
+   height: 400px;
+
+}
+ul{
+   padding:0;
+}
+   
  }
